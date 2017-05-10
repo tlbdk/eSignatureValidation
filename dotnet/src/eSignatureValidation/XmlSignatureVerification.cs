@@ -5,12 +5,12 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
-using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
+using System.Xml.XmlDocumentXPathExtensions;
 
-namespace MobileLife.OBCO.Data.Signicat
+namespace eSignatureValidation
 {
     public class XmlSignatureVerification
     {
@@ -29,7 +29,7 @@ namespace MobileLife.OBCO.Data.Signicat
             {
                 DtdProcessing = DtdProcessing.Prohibit,
                 MaxCharactersFromEntities = 30,
-                XmlResolver = null
+                //XmlResolver = null
             });
             var doc = new XmlDocument { PreserveWhitespace = true };
             doc.Load(reader);

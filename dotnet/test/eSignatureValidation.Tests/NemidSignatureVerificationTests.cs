@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Linq;
+using eSignatureValidation.Tests.Common;
 using MobileLife.OBCO.Data;
 using MobileLife.OBCO.Data.Common;
 using MobileLife.OBCO.Data.Signicat;
 using Xunit;
 
-namespace MobileLife.OBCO.DataTests.Signicat
+namespace eSignatureValidation.Tests
 {
     public class NemidSignatureVerificationTests
     {

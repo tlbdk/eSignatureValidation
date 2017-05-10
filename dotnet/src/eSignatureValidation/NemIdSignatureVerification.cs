@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Linq;
 
-namespace MobileLife.OBCO.Data.Signicat
+namespace eSignatureValidation
 {
     public class NemidSignatureVerification : XmlSignatureVerification
     {
@@ -79,7 +79,6 @@ namespace MobileLife.OBCO.Data.Signicat
         public string VisibleToSigner { get; set; }
     }
 
-    [Serializable]
     public class NemidSignatureVerificationException : XmlSignatureVerificationException
     {
         public NemidSignatureVerificationException() { }

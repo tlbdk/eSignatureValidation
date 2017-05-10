@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit">
+      <Version>2.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\eSignatureValidation\eSignatureValidation.csproj">
+      <Project>{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}</Project>
+      <Name>eSignatureValidation</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

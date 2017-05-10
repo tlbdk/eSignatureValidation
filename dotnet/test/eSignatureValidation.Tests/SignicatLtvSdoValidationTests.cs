@@ -1,11 +1,9 @@
 ﻿using System;
-using System.IO;
-using System.Text;
 using System.Xml.Linq;
-using MobileLife.OBCO.Data.Common;
+using eSignatureValidation.Tests.Common;
 using Xunit;
 
-namespace MobileLife.OBCO.DataTests.Signicat
+namespace eSignatureValidation.Tests
 {
     public class SignicatLtvSdoValidationTests
     {

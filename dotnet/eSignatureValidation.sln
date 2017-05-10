@@ -1,0 +1,56 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8666309B-FB87-432C-8E0C-3430FB3C6CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSignatureValidation", "src\eSignatureValidation\eSignatureValidation.csproj", "{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E1FD112-6F8A-4E98-BD5C-2EA6EFF2BFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSignatureValidation.Tests", "test\eSignatureValidation.Tests\eSignatureValidation.Tests.csproj", "{0EA439C8-BDD5-4343-A738-9021A0230CD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|x64.ActiveCfg = Debug|x64
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|x64.Build.0 = Debug|x64
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|x86.ActiveCfg = Debug|x86
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Debug|x86.Build.0 = Debug|x86
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|x64.ActiveCfg = Release|x64
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|x64.Build.0 = Release|x64
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|x86.ActiveCfg = Release|x86
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543}.Release|x86.Build.0 = Release|x86
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|x64.ActiveCfg = Debug|x64
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|x64.Build.0 = Debug|x64
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|x86.ActiveCfg = Debug|x86
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Debug|x86.Build.0 = Debug|x86
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|x64.ActiveCfg = Release|x64
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|x64.Build.0 = Release|x64
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|x86.ActiveCfg = Release|x86
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC844E9E-F48D-40EC-AFE3-F8F5F7293543} = {8666309B-FB87-432C-8E0C-3430FB3C6CB6}
+		{0EA439C8-BDD5-4343-A738-9021A0230CD9} = {8E1FD112-6F8A-4E98-BD5C-2EA6EFF2BFFA}
+	EndGlobalSection
+EndGlobal

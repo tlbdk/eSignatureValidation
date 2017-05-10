@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Security.Cryptography.X509Certificates;
-using MobileLife.HostIntegration;
-using MobileLife.OBCO.Data;
-using MobileLife.OBCO.Data.Common;
-using MobileLife.OBCO.Data.Signicat;
+using eSignatureValidation.Tests.Common;
 using Xunit;
 
-namespace MobileLife.OBCO.DataTests.Signicat
+namespace eSignatureValidation.Tests
 {
     public class BankIdSeSignatureVerificationTests
     {

@@ -2,7 +2,7 @@
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Linq;
 
-namespace MobileLife.OBCO.Data.Signicat
+namespace eSignatureValidation
 {
     public class BankIdSeSignatureVerification : XmlSignatureVerification
     {

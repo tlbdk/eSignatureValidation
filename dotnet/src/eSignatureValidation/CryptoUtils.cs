@@ -1,12 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.AccessControl;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.RegularExpressions;
 
-namespace MobileLife.OBCO.Data.Signicat
+namespace eSignatureValidation
 {
     public class CryptoUtils
     {

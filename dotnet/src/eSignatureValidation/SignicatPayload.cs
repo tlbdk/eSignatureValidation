@@ -6,7 +6,7 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace MobileLife.OBCO.Data.Signicat
+namespace eSignatureValidation
 {
     public class SignicatPayload
     {
